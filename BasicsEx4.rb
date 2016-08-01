@@ -1,0 +1,6 @@
+my_array = [2000, 2001, 2002, 2003, 2004]
+puts my_array[0]
+puts my_array[1]
+puts my_array[2]
+puts my_array[3]
+puts my_array[4]
