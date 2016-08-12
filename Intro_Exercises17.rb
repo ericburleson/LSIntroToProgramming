@@ -1,0 +1,13 @@
+#Intro_Exercises17.rb
+
+hash1 = {shoes: "nike", "hat" => "adidas", :hoodie => true} 
+hash2 = {"hat" => "adidas", :shoes => "nike", hoodie: true} 
+
+
+#I'm not even sure that you can mix types of invocation. Looks like you can.
+
+if hash1 == hash2
+  puts "These hashes are the same!" #Supposing you could even invoke these hashes, this is what would print.
+else
+  puts "These hashes are not the same!" 
+end
